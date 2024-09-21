@@ -1,6 +1,6 @@
 function getWeather() {
-    const apiKey = 'dc9d625e49efe87f7e2d03ac9a7837b4'; // Your API key
-    const city = document.getElementById('city').value; // Get city from input
+    const apiKey = 'key_here'; 
+    const city = document.getElementById('city').value; 
 
     if (!city) {
         alert('Please enter a city');
@@ -82,7 +82,7 @@ function displayHourlyForecast(hourlyData) {
             </div>
         `;
 
-        hourlyForecastDiv.innerHTML += hourlyItemHtml; // Append the forecast to the hourly forecast container
+        hourlyForecastDiv.innerHTML += hourlyItemHtml; 
     });
 }
 
